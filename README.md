@@ -7,6 +7,10 @@ env-based multi logger that:
 
 ## Setup
 
+```bash
+go get github.com/tomek7667/go-multi-logger-slog@latest
+```
+
 In order for loki x json logging you need to specify the following env variables:
 
 - `LOKI_ENDPOINT` - probably something like `https://logs-prod-___.grafana.net/loki/api/v1/push`
