@@ -6,9 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tomek7667/go-multi-logger-slog/internal/utils"
-
 	"github.com/lmittmann/tint"
+	"github.com/tomek7667/go-multi-logger-slog/internal/utils"
 )
 
 func SetLogLevel() {
