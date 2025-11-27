@@ -31,7 +31,7 @@ package main
 import (
     "log/slog"
 
-    "github.com/tomek7667/go-multi-logger-slog"
+    "github.com/tomek7667/go-multi-logger-slog/logger"
     "github.com/joho/godotenv"
 )
 
@@ -53,3 +53,4 @@ func main() {
 ## Note
 
 Please note that this package is not optimized, however gets the job done by logging to grafana dashboard. For every log called, it calls a POST to your loki endpoint.
+
